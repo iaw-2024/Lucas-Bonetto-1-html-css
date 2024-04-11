@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario con Tailwind CSS</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container mx-5 my-5">
+    <h2 class="text-2xl mb-4">Formulario con Tailwindcss</h2>
+    <form>
+        <div class="mb-4">
+            <label for="agregar" class="block mb-1">Agregar nuevo elemento</label>
+            <input type="text" id="agregar" class="form-input  rounded-md bg-gray-100 w-1/2">
+        </div>
+
+        <div class="mb-4">
+            <label class="block mb-1">Editar elemento</label>
+            
+            <select class="block px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500 w-1/2">
+                <option value="-" selected>-</option>
+                <option value="opcion1">Elemento 1</option>
+                <option value="opcion2">Elemento 2</option>
+                <option value="opcion3">Elemento 3</option>
+              </select>
+            
+            <label for="edicion" class="block mb-1">Agregar cambio</label>
+            <input type="text" id="edicion" class="form-input  rounded-md bg-gray-100 w-1/2" required>
+        </div>
+        
+        <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white px-4 py-2 rounded">Enviar</button>
+    </form>
+</div>
+
+</body>
+</html>

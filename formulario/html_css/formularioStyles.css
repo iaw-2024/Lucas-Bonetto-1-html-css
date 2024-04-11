@@ -1,0 +1,72 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 90%;
+    margin: 1% auto;
+    padding: 2%;
+    border: 1px solid #252323;
+    border-radius: 1%;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 1%;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-size: 100%;
+}
+
+#agregar,
+#edicion {
+    width: 100%;
+    padding: 1.5%;
+    border: 1px solid #ccc;
+    border-radius: 1%;
+    box-sizing: border-box;
+    outline: none;
+}
+
+#buttonEnviar {
+    padding: 2% 5%;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 7%;
+    cursor: pointer;
+}
+
+.listDown{
+    margin-bottom: 4%;
+}
+.compAgregar{
+    margin-bottom: 4%
+}
+
+.compEditar{
+    margin-bottom:  4%
+}
+
+.botonEnviar{
+    margin-bottom:  4%
+}
+
+#buttonEnviar:hover {
+    background-color: #0056b3;
+}
+
+.dropdown {
+    position: relative;
+   
+}
+
+ 
+  
