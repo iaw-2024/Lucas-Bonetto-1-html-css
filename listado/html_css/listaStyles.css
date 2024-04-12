@@ -1,0 +1,30 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 50%;
+    margin: 3% auto;
+    padding: 5%;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+li {
+    margin-bottom: 2%;
+    padding: 10px;
+    border: 1px solid #000000;
+    background-color: rgb(111, 171, 137);
+}
+
+li:hover{
+    background-color: #00fa158f;
+}
