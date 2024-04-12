@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="formularioStyles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Formulario</h2>
+        <form>
+            <div class="compAgregar">
+                <label for="agregar">Agregar nuevo elemento</label>
+                <input type="text" id="agregar">
+            </div>
+
+            <div class="compEditar">
+                <label >Editar elemento</label>
+                <div class="listDown">
+                    <select id="opciones" name="opciones">
+                        <option value="" selected>-</option>
+                        <option value="opcion1">Elemento 1</option>
+                        <option value="opcion2">Elemento 2</option>
+                        <option value="opcion3">Elemento 3</option>
+                    </select>
+                </div>
+                <label for="edicion">Agregar cambio</label>
+                <input type="text" id="edicion">
+            </div>
+            
+            <div class="botonEnviar">
+                <button type="submit" id="buttonEnviar" >Enviar</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
